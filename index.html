@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Este es un tipo de declaración que indica al navegador que el documento es HTML5 -->
+<html lang="en">
+<!-- La etiqueta <html> indica el inicio del documento HTML. El atributo "lang" indica que el idioma del contenido es inglés ("en"). -->
+
+<head>
+    <!-- La sección <head> contiene información sobre el documento como metadatos, título y enlaces a archivos externos. -->
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta meta define la codificación de caracteres que usa el documento. UTF-8 es la codificación de texto más utilizada. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esto asegura que el sitio web se vea bien en todos los dispositivos ajustando la escala de la página para que coincida con el tamaño de la pantalla. -->
+    <title>Document</title>
+    <!-- El título que aparecerá en la pestaña del navegador. -->
+</head>
+
+<body>
+    <!-- La sección <body> contiene todo el contenido visible del documento. -->
+
+    <!-- Botón que al hacer clic ejecuta la función "crearItems". -->
+    <button onclick="crearItems()">crear</button>
+    
+    <!-- Botón que al hacer clic ejecuta la función "eliminarItems". -->
+    <button onclick="eliminarItems()">eliminar</button>
+
+    <!-- Lista desordenada (<ul>) que contiene elementos de lista (<li>). -->
+    <ul id="listas">
+        <li>lista de elementos</li>
+        <!-- Este es un elemento de lista que inicialmente contiene "lista de elementos". -->
+    </ul>
+
+    <div>
+        <label for="menu principal">es opcional xq es busacdor: volver al menu principal</label>
+        <a href="https://temadomtallerx3-dom-principal.netlify.app">menu principal</a>
+    </div>
+    
+
+    <script src="script.js"> </script>
+</body>
+
+
+<!-- El código JavaScript se coloca dentro de la etiqueta <script> para controlar la interacción de los botones y la lista. -->
+
+</html>
+<!-- Fin del documento HTML. -->
